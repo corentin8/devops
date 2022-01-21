@@ -1,7 +1,7 @@
-package me.escoffier.workshop.supes;
+package me.escoffier.workshop;
 
-import fight.src.main.java.me.escoffier.workshop.hero.Hero;
-import fight.src.main.java.me.escoffier.workshop.vilain.Villain;
+import fight.src.main.java.me.escoffier.workshop.hero;
+import fight.src.main.java.me.escoffier.workshop.vilain;
 
 public class Fight {
 

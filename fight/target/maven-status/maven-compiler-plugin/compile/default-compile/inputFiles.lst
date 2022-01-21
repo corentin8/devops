@@ -1,4 +1,6 @@
-C:\Users\besso\Desktop\cours\M2\kubernete\kubernetes-workshop\microservices\201\fight\src\main\java\me\escoffier\workshop\supes\FightResource.java
-C:\Users\besso\Desktop\cours\M2\kubernete\kubernetes-workshop\microservices\201\fight\src\main\java\me\escoffier\workshop\supes\HeroClient.java
-C:\Users\besso\Desktop\cours\M2\kubernete\kubernetes-workshop\microservices\201\fight\src\main\java\me\escoffier\workshop\supes\VilainClient.java
-C:\Users\besso\Desktop\cours\M2\kubernete\kubernetes-workshop\microservices\201\fight\src\main\java\me\escoffier\workshop\supes\Fight.java
+C:\Users\besso\Desktop\cours\M2\kubernete\201\fight\src\main\java\me\escoffier\workshop\fight\VilainClient.java
+C:\Users\besso\Desktop\cours\M2\kubernete\201\fight\src\main\java\me\escoffier\workshop\fight\FightResource.java
+C:\Users\besso\Desktop\cours\M2\kubernete\201\fight\src\main\java\me\escoffier\workshop\fight\Fight.java
+C:\Users\besso\Desktop\cours\M2\kubernete\201\fight\src\main\java\me\escoffier\workshop\fight\HeroClient.java
+C:\Users\besso\Desktop\cours\M2\kubernete\201\fight\src\main\java\me\escoffier\workshop\hero\Hero.java
+C:\Users\besso\Desktop\cours\M2\kubernete\201\fight\src\main\java\me\escoffier\workshop\vilain\Villain.java

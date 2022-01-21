@@ -2,10 +2,10 @@ package me.escoffier.workshop.supes;
 
 import org.jboss.logging.Logger;
 
-import fight.src.main.java.me.escoffier.workshop.hero.Hero;
-import fight.src.main.java.me.escoffier.workshop.vilain.Villain;
-import me.escoffier.workshop.supes.HeroClient;
-import me.escoffier.workshop.supes.VilainClient;
+import fight.src.main.java.me.escoffier.workshop.hero;
+import fight.src.main.java.me.escoffier.workshop.vilain;
+import me.escoffier.workshop.HeroClient;
+import me.escoffier.workshop.VilainClient;
 
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
@@ -26,7 +26,7 @@ public class FightResource {
     @Inject @RestClient VilainClient vilainClient;
     @Inject @RestClient HeroClient heroClient ;
 
-    @GET
+   @GET
     @Path("/heroes/random")
     public Hero getRandomHero() {
         Hero hero = heroClient.findRandom();
@@ -46,7 +46,7 @@ public class FightResource {
     @Path("/fight")
     public Fight fight() {
         return fight(
-                getRandomHero(),
+                new Hero(),
                 getRandomVillain()
         );
     }

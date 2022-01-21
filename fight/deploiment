@@ -1,0 +1,4 @@
+mvn package
+docker build -f src/main/docker/Dockerfile.jvm -t workshop/fight .
+kubectl delete deployment fight
+kubectl apply -f kubernetes/
