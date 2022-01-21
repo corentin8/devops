@@ -44,7 +44,7 @@ public class FightResource {
     @Path("/fight")
     public Fight fight() {
         return fight(
-                new Hero(),
+                getRandomHero(),
                 getRandomVillain()
         );
     }
