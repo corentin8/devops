@@ -1,4 +1,4 @@
-package me.escoffier.workshop.supes;
+package me.escoffier.workshop.fight;
 
 import fight.src.main.java.me.escoffier.workshop.hero.Hero;
 import fight.src.main.java.me.escoffier.workshop.vilain.Villain;

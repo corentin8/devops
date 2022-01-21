@@ -69,7 +69,7 @@
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
-            <artifactId>quarkus-smallrye-health</artifactId>
+            <artifactId>quarkus-smallrye-fault-tolerance</artifactId>
         </dependency>
     </dependencies>
     <build>

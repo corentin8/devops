@@ -7,5 +7,6 @@ public class Hero{
     public String otherName;
     public int level;
     public String picture;
+    public String powers;
 
 }

@@ -2,24 +2,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: supes-monolith
+  name: fight
   labels:
-    app: supes-monolith
+    app: fight
 spec:
   replicas: 1
   strategy:
     type: RollingUpdate
   selector:
     matchLabels:
-      app: supes-monolith
+      app: fight
   template:
     metadata:
       labels:
-        app: supes-monolith
+        app: fight
     spec:
       containers:
-      - name: supes-monolith
-        image: workshop/supes-monolith:latest
+      - name: fight
+        image: workshop/fight:latest
         ports:
         - name: http
           containerPort: 8080
