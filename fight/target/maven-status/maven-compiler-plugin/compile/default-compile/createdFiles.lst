@@ -5,3 +5,4 @@ fight/src/main/java/me/escoffier/workshop/vilain/Villain.class
 fight/src/main/java/me/escoffier/workshop/hero/Hero.class
 META-INF/panache-archive.marker
 me/escoffier/workshop/supes/HeroClient.class
+me/escoffier/workshop/fight/MyHealthCheck.class
