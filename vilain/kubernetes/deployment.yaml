@@ -1,0 +1,42 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vilain
+  labels:
+    app: vilain
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: vilain
+  template:
+    metadata:
+      labels:
+        app: vilain
+    spec:
+      containers:
+      - name: vilain
+        image: workshop/vilain:latest
+        ports:
+        - name: http
+          containerPort: 8080
+        imagePullPolicy: IfNotPresent
+        env:
+          - name: QUARKUS_DATASOURCE_URL
+            valueFrom:
+              configMapKeyRef:
+                name: supes-config
+                key: database
+          - name: QUARKUS_DATASOURCE_USERNAME
+            valueFrom:
+              secretKeyRef:
+                name: supes-database-secret
+                key: username
+          - name: QUARKUS_DATASOURCE_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: supes-database-secret
+                key: password

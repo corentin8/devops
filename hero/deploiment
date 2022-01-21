@@ -1,0 +1,4 @@
+mvn package
+docker build -f src/main/docker/Dockerfile.jvm -t workshop/hero .
+kubectl delete deployment hero
+kubectl apply -f kubernetes/

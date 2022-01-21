@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: vilain
+spec:
+  type: LoadBalancer
+  selector:
+    app: vilain
+  ports:
+  - port: 8080
+    targetPort: http
