@@ -1,7 +1,8 @@
-me\escoffier\workshop\fight\FightResource.class
-me\escoffier\workshop\fight\HeroClient.class
-me\escoffier\workshop\fight\VilainClient.class
-META-INF\panache-archive.marker
-me\escoffier\workshop\fight\Fight.class
-fight\src\main\java\me\escoffier\workshop\vilain\Villain.class
-fight\src\main\java\me\escoffier\workshop\hero\Hero.class
+me/escoffier/workshop/fight/FightResource.class
+fight/src/main/java/me/escoffier/workshop/vilain/Villain.class
+fight/src/main/java/me/escoffier/workshop/hero/Hero.class
+me/escoffier/workshop/fight/Fight.class
+me/escoffier/workshop/fight/HeroClient.class
+META-INF/panache-archive.marker
+me/escoffier/workshop/fight/VilainClient.class
+me/escoffier/workshop/fight/MyHealthCheck.class
