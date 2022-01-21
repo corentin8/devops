@@ -1,11 +1,9 @@
-package me.escoffier.workshop.supes;
+package me.escoffier.workshop.fight;
 
 import org.jboss.logging.Logger;
 
-import fight.src.main.java.me.escoffier.workshop.hero;
-import fight.src.main.java.me.escoffier.workshop.vilain;
-import me.escoffier.workshop.HeroClient;
-import me.escoffier.workshop.VilainClient;
+import fight.src.main.java.me.escoffier.workshop.hero.Hero;
+import fight.src.main.java.me.escoffier.workshop.vilain.Villain;
 
 
 import org.eclipse.microprofile.rest.client.inject.RestClient;
