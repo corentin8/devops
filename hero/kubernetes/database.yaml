@@ -2,7 +2,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: postgres
+  name: postgres1
 spec:
   selector:
     matchLabels:
@@ -13,7 +13,7 @@ spec:
         app: supes-database
     spec:
       containers:
-        - name: postgres
+        - name: postgres1
           image: postgres:9.6.5
           ports:
             - containerPort: 5432

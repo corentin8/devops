@@ -1,3 +1,7 @@
-META-INF\panache-archive.marker
-fight\src\main\java\me\escoffier\workshop\vilain\Villain.class
-fight\src\main\java\me\escoffier\workshop\hero\Hero.class
+me/escoffier/workshop/supes/Fight.class
+me/escoffier/workshop/supes/VilainClient.class
+me/escoffier/workshop/supes/FightResource.class
+fight/src/main/java/me/escoffier/workshop/vilain/Villain.class
+fight/src/main/java/me/escoffier/workshop/hero/Hero.class
+META-INF/panache-archive.marker
+me/escoffier/workshop/supes/HeroClient.class
